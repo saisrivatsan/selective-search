@@ -5,9 +5,9 @@ Created by Sai Srivatsa Ravindranath
 ### Introduction
 
 
-Selective Search is an object proposal algorithm which combines the strength of both 
+[Selective Search](koen.me/research/selectivesearch/) is an object proposal algorithm which combines the strength of both 
 exhaustive search and segmentation. We provide a python implementation of selective search.
-We also integrate it with fast-rcnn, which uses these proposals for object detection.
+We also integrate it with [fast-rcnn](https://github.com/rbgirshick/fast-rcnn), which uses these proposals for object detection.
     
 ### Contents
 1. [Installation](#installation)
@@ -22,7 +22,7 @@ We also integrate it with fast-rcnn, which uses these proposals for object detec
 
 2. Clone the selective search repository
   ```Shell 
-  git clone https://github.com/saisrivatsan/selective_search.git
+  git clone https://github.com/saisrivatsan/selective-search.git
   ```
 
 3. Install `fast-rcnn`. (see: [fast-rcnn installation instructions](https://github.com/rbgirshick/fast-rcnn#installation-sufficient-for-the-demo)) and download pre-computed Fast R-CNN detectors.
@@ -66,7 +66,7 @@ ks = [50,100]
 
 
 ```python
-# Display chosen image
+# Display selected image
 import matplotlib.pyplot as plt
 %matplotlib inline
 plt.imshow(plt.imread('Data/img/' + image_name + '.jpg'))
