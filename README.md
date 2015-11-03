@@ -5,7 +5,7 @@ Created by Sai Srivatsa Ravindranath
 ### Introduction
 
 
-[Selective Search](koen.me/research/selectivesearch/) is an object proposal algorithm which combines the strength of both 
+[Selective Search](http://koen.me/research/selectivesearch/) is an object proposal algorithm which combines the strength of both 
 exhaustive search and segmentation. We provide a python implementation of selective search.
 We also integrate it with [fast-rcnn](https://github.com/rbgirshick/fast-rcnn), which uses these proposals for object detection.
     
