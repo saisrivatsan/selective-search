@@ -10,7 +10,7 @@ exhaustive search and segmentation. We provide a python implementation of select
 We also integrate it with fast-rcnn, which uses these proposals for object detection.
     
 ### Contents
-1. [Basic installation](#installation)
+1. [Installation](#installation)
 2. [Demo](#demo)
 
 ### Installation
@@ -71,14 +71,6 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 plt.imshow(plt.imread('Data/img/' + image_name + '.jpg'))
 ```
-
-
-
-
-    <matplotlib.image.AxesImage at 0x7f48f2f72850>
-
-
-
 
 ![png](output_5_1.png)
 
