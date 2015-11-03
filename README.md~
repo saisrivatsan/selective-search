@@ -6,29 +6,31 @@ Created by Sai Srivatsa Ravindranath
 
 
 Selective Search is an object proposal algorithm which combines the strength of both 
-exhaustive search and segmentation. We provide a python implementation of selective search.
+an exhaustive search and segmentation. We provide a python implementation of selective search.
 We also integrate it with fast-rcnn, which uses these proposals for object detection.
     
 ### Contents
-1. [Basic installation](#installation)
-2. [Demo](#demo)
+1. [Requirements:](#requirements)
+3. [Basic installation](#installation)
+3. [Demo](#demo)
+
+### Requirements:
+
+1. Python Packages : `numpy`, `scikit-image`, `scipy`, `scikit-learn`, `matplotlib`
+	``` pip install <package-name>
 
 ### Installation
 
-1. Python Packages : `numpy`, `scikit-image`, `scipy`, `scikit-learn`, `matplotlib`
-	``` Shell
-	pip install <package-name>
-	```
-
-2. Clone the selective search repository
+1. Clone the selective search repository
   ```Shell 
   git clone https://github.com/saisrivatsan/selective_search.git
   ```
 
-3. Install `fast-rcnn`. (see: [fast-rcnn installation instructions](https://github.com/rbgirshick/fast-rcnn#installation-sufficient-for-the-demo)) and download pre-computed Fast R-CNN detectors.
+2. Install `fast-rcnn`. (see: [fast-rcnn installation instructions](https://github.com/rbgirshick/fast-rcnn#installation-sufficient-for-the-demo)) and download pre-computed Fast R-CNN detectors.
 
 
 ### Demo
+
 
 
 ```python
