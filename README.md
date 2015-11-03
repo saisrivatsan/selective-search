@@ -1,4 +1,4 @@
-# Object Recognition using Selective Search (Python Implementation) + RCNN 
+# Object Recognition using Selective Search (Python Implementation) + R-CNNs 
 
 Created by Sai Srivatsa Ravindranath
 
